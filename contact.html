@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="top-bar">
+    <a href="index.html">HOME</a>
+    <a href="good.html">ABOUT</a>
+    <a href="projects.html">PROJECTS</a>
+    <a href="contact.html">CONTACT</a>
+  </div>
+  <div class=center>
+    <div class=container>
+      <h1>CONTACT</h1>
+      <div class="non-fade-element">
+        <p>Email me at harrisonbronfeld@gmail.com</p>
+      </div>
+      <div class="non-fade-element">
+        <p>Tweet @theRealHashbron on Twitter</p>
+      </div>
+      <div class="non-fade-element">
+        <p>Have something important to say? Use this <a href="javascript:void(0)" onclick="displayKey()">PGP key</a></p>
+        <div class="pgp-key">-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: BCPG C# v1.6.1.0
+
+mQENBGAvPdgBCADJu5/UYiTN6vwJTZMDMenulpiNR1935364IXY/KVQGtX+9noIO
+HBSDG4hMEU9el/6T/P9/bHZw0d+giza1cOBQxZCvpCcf7yUofPbqEF2b4XKeHzOY
+JQQ9/IlGhTigbeW8qFNuPAMOEdoDO/UmQ3QOPsIcffqyQGLs47083s1hZkICg3BD
+QNJJ6iIsqYzBzC2NFLMkKhkQw55uZ22Xjq7zaXydxNHxp0SOGBLpw4BKJdL9QvWM
+cPd3L9tCY5ExNmb/x32aGzCGs7rsDoc5xZg19H25go2iTTZts07bzR7ilVbFTDct
+/AF3PwfH7IvqR4Pr8a2TYJi3uVPZS0MHhZ/fABEBAAG0GmhhcnJpc29uYnJvbmZl
+bGRAZ21haWwuY29tiQEcBBABAgAGBQJgLz3YAAoJEO6TbLXAwiPr/tMIAJLE3V79
+AvMH5VZhaYNbAmy07HoezDrL8T7g42EFPwadcvag2qwVqD4o5/onrLkwTNXY/WE8
+RiilAXw+NGprojcyRPqgmC2Xgm9cEBwZfOzv6r7xh35FJx8XO8Nx+RQBZwNpcLa9
+uFFveXDQ9lQ9q5MN7K1L5hZC5/2q46ZtMGDWLOei7oupPWMBxhhcV0ObMxtl1nNQ
+Xi2qpnaTce4G6MHfnF6Ytb8Df8+bxaR8WXdE9LO4raGBweeQMMoIkJJieoBrrYLT
+Ifoh5I76mlTjNGOu87NJzBtJZjEvbymS61w4WsnA5YX56310PU+CK4ph0c1U3wKs
+fZ+q+C5VVVh69Aw=
+=n1yf
+-----END PGP PUBLIC KEY BLOCK-----</div>
+        <p>to contact me securely. Or email me and ask for my Signal.</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  function displayKey() {
+    var x = document.getElementsByClassName("pgp-key")[0];
+    if (x.style.display != "block") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  } 
+</script>
+</html>
