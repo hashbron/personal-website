@@ -1,16 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+:root { 
+
+	--night-mode: true;
+
+	--red-color: #E3553F;
+	--blue-color: #65A8A5; 
+	--black-color: #303430; 
+	--white-color: #F5E9C0;
+
+
+	/*--red-color: #65A8A5;
+	--blue-color: #E3553F; 
+	--black-color: #F5E9C0;
+	--white-color: #303430; */
+} 
 
 body {
 	margin: 0;
-	/*background-color: #313531;*/
-	background-color: black;
+	background-color: var(--black-color);
 }
 
 h1 {
-	font-family: 'Rubik Mono One', sans-serif;
-	/*color: #E3553F;*/
-	color: red;
+	/*font-family: 'Rubik Mono One', sans-serif;*/
+    font-family: 'Barrio', cursive;
+	color: var(--red-color);
 	text-align: center;
 	font-size: 50pt;
 	line-height: 60px;
@@ -18,28 +34,30 @@ h1 {
 }
 
 h2 {
-	color: #65A8A5;
+	color: var(--blue-color);
 	font-size: 20pt;
 	font-family: 'Playfair Display', serif;
 	margin: 0;
 }
 
 p {
-	color: #65A8A5;
+	color: var(--blue-color);
 	font-size: 14pt;
 	font-family: 'Playfair Display', serif;
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 1vh;
 }
 
 .top-bar {
   overflow: hidden;
-  background-color: black;
+  background-color: var(--black-color);
 }
 
 .top-bar a {
 	float: left;
-	font-family: 'Rubik Mono One', sans-serif;
-	color: red;
+	/*font-family: 'Rubik Mono One', sans-serif;*/
+	font-family: 'Barrio', cursive;
+	color: var(--red-color);
 	text-align: center;
 	font-size: 16pt;
 	padding: 10px 5px 10px 5px;
@@ -47,27 +65,27 @@ p {
 }
 
 .top-bar a:link {
-	color: red;
+	color: var(--red-color);
 	text-decoration: none;
 }
 
 .top-bar a:visited {
-	color: red;
+	color: var(--red-color);
 	text-decoration: none;
 }
 
 .top-bar a:hover {
-	color: #65A8A5;
+	color: var(--blue-color);
 	text-decoration: none;
 }
 
 .top-bar a:active {
-	color: red;
+	color: var(--red-color);
 	text-decoration: none;
 }
 
 .homepage-text {
-	color: #65A8A5;
+	color: var(--blue-color);
 	font-size: 18pt;
 	font-family: 'Playfair Display', serif;
 }
@@ -89,25 +107,25 @@ p {
 }
 
 a:link {
-	color: #65A8A5;
+	color: var(--blue-color);
 	text-decoration: underline;
 }
 
 a:visited {
-	color: #65A8A5;
+	color: var(--blue-color);
 }
 
 a:hover {
-	color: red;
+	color: var(--red-color);
 }
 
 a:active {
-	color: #65A8A5;
+	color: var(--blue-color);
 }
 
 .pgp-key {
 	display: none;
-	color: white;
+	color: var(--white-color);
 	font-size: 10;
 }
 
@@ -152,6 +170,10 @@ a:active {
 
 #sixth {
   animation-delay: 12.5s;
+}
+
+#space-after {
+	margin-bottom: 0.5vh;
 }
 
 .center {
