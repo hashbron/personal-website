@@ -137,6 +137,13 @@ a:active {
 	font-size: 10;
 }
 
+.hidden-text {
+	display: none;
+	color: var(--blue-color);
+	font-size: 14pt;
+	font-family: 'Playfair Display', serif;
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }

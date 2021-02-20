@@ -14,7 +14,8 @@
     <div class=container>
       <h1>PROJECTS</h1>
       <div class="non-fade-element">
-        <h3>Here are few personal projects and some of my freelance work. I'd like to share more, but a lot of the work I've done (espeically on campaigns) used private data that can't be shared. Ask me offline about EWOKS and KYOSHI.</h3>
+        <h3>Here are few personal projects and some of my freelance work. <a href="javascript:void(0)" onclick="displayText()">Wish I could share more.</a></h3>
+        <div class="hidden-text">I'd like to share more, but a lot of the work I've done (espeically on campaigns) used private data that can't be shared. Ask me offline about EWOKS and KYOSHI.</div>
       </div>
       <div class="non-fade-element">
         <h2>Pronouns in Profile</h2>
@@ -36,4 +37,14 @@
     </div>
   </div>
 </body>
+<script>
+  function displayText() {
+    var x = document.getElementsByClassName("hidden-text")[0];
+    if (x.style.display != "block") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  } 
+</script>
 </html>
