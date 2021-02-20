@@ -40,9 +40,17 @@ h2 {
 	margin: 0;
 }
 
-p {
+h3 {
 	color: var(--blue-color);
 	font-size: 14pt;
+	font-family: 'Playfair Display', serif;
+	margin-top: 0;
+	margin-bottom: 1vh;
+}
+
+p {
+	color: var(--blue-color);
+	font-size: 12pt;
 	font-family: 'Playfair Display', serif;
 	margin-top: 0;
 	margin-bottom: 1vh;
